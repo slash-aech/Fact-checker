@@ -6,7 +6,6 @@ from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 from .api import make_query, process_query
 
-# Define separate keys for Custom Search and Google Vision API
 API_KEY_CUSTOM_SEARCH = "AIzaSyDSGy9kiTdx_FaXS6KoKfce_Q9SxSQloLI"
 API_KEY_VISION = "AIzaSyBT-kDQY5tMoPAsgvJI9ze40NYIB4fko3U"
 
