@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trending News</title>
+    <link rel="stylesheet" href="trending-news.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>🔥 Trending News</h2>
+
+        <!-- Input for Custom Query -->
+        <div class="search-box">
+            <input type="text" id="queryInput" placeholder="Enter topic (e.g., AI, politics, sports)">
+            <button onclick="fetchTrendingNews()">Search</button>
+        </div>
+
+        <p class="loading" id="loadingText">Fetching latest news...</p>
+
+        <!-- News Display Section -->
+        <div class="news-container" id="news-container"></div>
+    </div>
+
+    <script src="trending-news.js"></script>
+</body>
+</html>
